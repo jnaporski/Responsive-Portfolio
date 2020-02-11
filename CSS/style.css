@@ -1,0 +1,177 @@
+
+
+
+header{
+  position: sticky;
+  top: 0px;
+  background-color: #ffffff;
+  padding-bottom: 29px;
+  padding-top: 29px;
+  border-bottom: 2px solid #cccccc;
+
+}
+
+h1{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align:  left;
+  margin: 0px;
+  padding-left: 15%;
+
+}
+
+.header2{
+  color: #4aaaa5;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  border-bottom:1px solid #dddddd;
+  
+}
+h1 span{
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+body{
+  background-image: url(images/cicles-blue.png);
+  background-repeat: inherit;
+  position: static;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0px;
+}
+nav{
+  float: right;
+  margin-right: 15%;
+  margin-top: -50px;
+  background-color: #ffffff;
+}
+nav li{
+  display: inline-block;
+
+}
+nav ul {
+  color: #777777;
+  font-size: 20px;
+  padding: 0px;
+  list-style-type: none;
+  
+}
+nav ul a{
+  color: #777777;
+  text-decoration: none;
+}
+.nav{
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: 1px solid #777777;
+
+}
+span, .info, .mainPortfolio{
+  margin: 0px;
+  padding: 30px;
+}
+.info{
+  background-color: #ffffff;
+  min-height: 350px;
+  border: 1px solid #dddddd;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 25px;
+  margin-bottom: 150px;
+
+
+}
+img{
+  float: left;
+  padding: 0px;
+  margin: 25px;
+}
+.p1{
+  padding-top: 18px;
+}
+
+p{
+  padding-bottom: 0px;
+  color: #777777;
+  line-height: 1.6;
+  font-size: 20px;
+  padding: 25px;
+  padding-bottom: 0px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 10px solid #4aaaa5;
+  background-color: #666666;
+  padding-top: 25;
+  padding: 0px;
+  margin: 0px;
+}
+.foot{
+  color: white;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin: 5px;
+  font-size: 15px;
+}
+.contact p, input, textarea{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
+  line-height: 2.5;
+  color: #777777;
+}
+input{
+  height: 30px;
+}
+input,textarea{
+  width: 95%;
+  line-height: 1.6;
+}
+input[type=Submit]{
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+/* .portImages{
+  display: grid;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+.portImages > div {
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+} */
+.imagesContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+  
+}
+.portImages{
+  padding: 0;
+}
+.imagesPort{
+    margin: ;
+}
